@@ -1,0 +1,20 @@
+<html>
+    <head></head>
+<body>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<div align='center'>
+    <h1 style="color:#1a1a1a" id="quote"></h1>
+</div>
+<script>
+    var quotearray=[
+        "The longest journey you and I really make is the journey to understand that there is no definition", 
+        "unless you create it. That the definition of who you are and who you are called to be in the world… ",
+        "is yours. Rev. Norm"
+    ];
+
+    var randomNumber=Math.floor((Math.random() * 2)+1);
+    document.getElementById('quote').innerHTML=quotearray[randomNumber-1];
+</script>
+</body>
+
+</html>
